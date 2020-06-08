@@ -1,0 +1,27 @@
+{
+	"name": "theme-arclight",
+	"displayName": "Arclight Theme",
+	"description": "Higher contrast / neon version of the popular Dracula theme for VSCode",
+	"version": "1.0.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Chris-1101/vscode-arclight"
+	},
+	"icon": "icon.png",
+	"publisher": "Chris-1101",
+	"engines": {
+		"vscode": "^1.12.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Arclight",
+				"uiTheme": "vs-dark",
+				"path": "./theme/arclight.json"
+			}
+		]
+	}
+}
